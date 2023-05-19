@@ -94,6 +94,7 @@ risk of interfering with the robot.
 6. ![image](https://user-images.githubusercontent.com/36288975/173730741-29331e12-e805-44da-bc71-798894720348.png)
 
 ### PROGRAM :
+```
 import sys
 import os
 sys.path.append(os.path.abspath(r"""E:/RoboDK/Posts/""")) # temporarily add path to POSTS folder
@@ -120,8 +121,8 @@ r.MoveL(p(1909.38,82.1936,244.394,173.458,-48.1296,-166.856),[-5.09436,-53.5834,
 r.MoveL(p(913.203,11.8774,163.193,173.458,-48.1296,-166.856),[-6.20609,-86.1947,148.418,15.6926,33.1308,-16.7445],[0,0,0])
 r.MoveL(p(1685.13,32.5589,6.33493,173.458,-48.1296,-166.856),[-4.1108,-52.2296,106.602,13.4094,40.4581,-11.6734],[0,0,0])
 r.ProgFinish(r"""Prog1""")
-r.ProgSave(r"""C:/Users/Sudharshna/Documents/RoboDK""",r"""Prog1""",True,r"""E:/RoboDK/Other/VSCodium/VSCodium.exe""")
-
+r.ProgSave(r"""C:/Users/kinematics/Documents/RoboDK""",r"""Prog1""",True,r"""E:/RoboDK/Other/VSCodium/VSCodium.exe""")
+```
 ### SIMULATION :
 ![k7](https://github.com/Mukilkumar-SEC/Lab-Ex.-No---6-Design-simulate-an-environment-for-Welding-using-Robo-DK/assets/119559663/6005444a-d0a8-4ede-b3f3-b97f10001702)
 ![k8](https://github.com/Mukilkumar-SEC/Lab-Ex.-No---6-Design-simulate-an-environment-for-Welding-using-Robo-DK/assets/119559663/c38d40bb-c9b6-4317-a918-568886d2ee90)
